@@ -1,0 +1,23 @@
+LOCATOR A KM17UX
+LOCATOR B KM17UX
+Start Time:12/2/2020 6:15:47 πμ
+Stop Time:12/2/2020 9:00:47 πμ
+
+PASS 1
+Visible in 0 hours 45 mins 6 seconds from Start time
+FENGYUN 3C
+AOS LOC A AZ: 24.3
+AOS LOC B AZ:24.3
+COMMON WINDOW STARTS AT: 7:0:53 UTC ON 12/2/2020
+Pass 1 duration 14.9 minutes
+
+
+PASS 2
+Visible in 2 hours 25 mins 36 seconds from Start time
+FENGYUN 3C
+AOS LOC A AZ: 2.08
+AOS LOC B AZ:2.08
+COMMON WINDOW STARTS AT: 8:41:23 UTC ON 12/2/2020
+Pass 2 duration 14.8 minutes
+
+

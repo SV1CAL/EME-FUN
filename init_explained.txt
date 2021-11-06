@@ -1,0 +1,71 @@
+AzPulsesPerDegree 2 # When you move the AZ motor/actuator 1 degree how many pulses are being sent
+AzPulsesAccuracy 1 # not used
+LeftLimitPerDegree 0 # East software limit in degrees. Looking from the back of the dish towards south this is the left side limit 
+RightLimitDegrees 360 # West software limit in degrees. Looking from the back of the dish towards shout this is the right side limit
+ElPulsesPerDegree 2 # When you move the ELZ motor/actuator 1 degree how many pulses are being sent
+ElPulseAccuracy 1 # not used
+UpLimitPerDegree 90 # Up software limit in degrees
+DownLimitDegrees 5 # Down software limit in degrees
+MyLat 37.9 #Home QTH latitude
+MyLong 23.7 # Home QTH longitude
+ControllerComPort COM1 # Antenna controller com port (RS232)
+Preset1Az 197.1 # Azimuth
+Preset1El 44.58 # El 
+Preset2Az 187.3 # Az
+Preset2El 45.74 # El
+Preset3Az 200 # Az
+Preset3El 15 # El
+Preset4Az 200 # Az
+Preset4El 10 # El
+Preset5Az 200 # Az
+Preset5El 10 # El
+Preset6Az 200 #PARK position AZ
+Preset6El 10 #PARK position EL
+TRACKAZ_FLAG 1 # If 1, Azimuth motion is enabled
+TRACKEL_FLAG 1 #If 1 , Elevation montion is enabled
+SelectedSatelliteIndex 0 # Stores last used index in the satellite comboBox
+RealTime 1 # if 1 at startup , realtime chekbox is checked
+AzOffset -1 # Offset of azimuth reading. For example the controller can show 25deg but actuall antenna is at 24,offset is 24-25=-1
+ElOffset 15 # Offset of elevation reading. For example the controller can show 25deg but actuall antenna is at 24,offset is 24-25=-1
+trackrate 20 # WHen in autotracking mode, how often (in seconds) the position should be corrected
+sat_group 0 # last index of the satellite group combobox
+TransceiverPORT COM10 # Port used to connect to transceiver (RS232)
+Transceiver_baud_rate 9600 # baud rate for the above com port
+FT8x7_LO_144 0 # FT8x7 frequency translating LO for 144 MHz, in Hz
+FT8x7_LO_432 0 # FT8x7frequency  translating LO for 432 MHz, in Hz
+FT8x7_LO_1296 1151998590 # FT8x7 frequency  translating LO for 432 MHz, in Hz
+FT8x7_LO_10368 9072000000 # FT8x7 frequency  translating LO for 10368 MHz, in Hz
+BAND 23cm #last used BAND 
+SDRfreq 1296.0500 # SDR center frequency
+MAP65path C:\\MAP65\\livecq.txt # path where livecq.txt is 
+WSJTpath C:\\Program Files\\WSJT9\\decoded.txt # path where decoded.txt is
+PCR1000mode 1  # PCR1000 is used to monitor trasmitted signal. This is the mode used at startup (SSB)
+PCR1000bw 0 # PCR1000 bandwidth ,0 is 3kHz for SSB
+PCR1000port COM7 # PRC100 com port (RS232)
+PCR1000offset 51500 # Frequency offset in Hz .Typically the PRC1000 xtal has a large frequency offset. THis can be used to cancel this out.F
+PCR1000volume 70 # PCR1000 volume 0 up to 99
+TRANSCEIVER TS2000 # valid entries: TS2000, FT817, FT857
+TS2000_LO_144 0 #  TS2000 frequency  translating LO for 144 MHz, in Hz
+TS2000_LO_432 0 #  TS2000 frequency  translating LO for 432 MHz, in Hz
+TS2000_LO_1296 0 #  TS2000 frequency  translating LO for 1296 MHz, in Hz
+TS2000_LO_10368 9072000000 #  TS2000 frequency  translating LO for 10368 MHz, in Hz
+G3RUH_GPSDO_PORT COM4 # RS232 port to connect to G3RUH's GPS 10 MHz reference
+ANTENNA_CONTROLLER EME_FUN # valid entries are EME_FUN EME_FUN_PWM and SPID_BIG_RAS
+TransceiverWaitWrite 150 # time to wait after a Write command has been sent to the transceiver
+TransceiverWaitRead 150 #time to wait after a read command has been sent to the trasnceiver 
+RxDopplerAutoInterval 1000 # When RX doppler is automatically corrected, this number shows the interval (how often) in ms.
+TxDopplerAutoInterval 1000 # When RX doppler is automatically corrected, this number shows the interval (how often) in ms.
+SPID_RAS_degrees_step 0.5 #SPID step , valid  entries 0.1,0.5,1 . Must match SPID controller setting.
+PWM_FAST_AZ 1300 # code from 0 to 4096 that defines the "fast" Az PWM duty cycle or the AZ motion "fast" speed in other words 
+PWM_FAST_EL 1300 # code from 0 to 4096 that defines the "fast" EL PWM duty cycle or the EL motion "fast" speed in other words
+PWM_SLOW_AZ 990 # code from 0 to 4096 that defines the "slow" Az PWM duty cycle or the AZ motion "slow" speed in other words
+PWM_SLOW_EL 1110 # code from 0 to 4096 that defines the "slow" EL PWM duty cycle or the EL motion "slow" speed in other words 
+AZ_SLOW_THRES 3 #AZ threshold in degrees to define when AZ motion should slow down as the AZ target is approached
+EL_SLOW_THRES 3 #AZ threshold in degrees to define when EL motion should slow down as the EL target is approached
+PRESET1_LABEL HB13 # Preset 1 button label
+PRESET2_LABEL ASTRA19 # Preset 2 button label
+PRESET3_LABEL PRESET3 # Preset 3 button label
+PRESET4_LABEL PRESET4 # Preset 4 button label
+PRESET5_LABEL PRESET5 # Preset 5 button label
+PRESET6_LABEL PARK # Preset 6 button label
+GPSBAUD 4800 # GPS PORT BAUD RATE

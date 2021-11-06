@@ -1,0 +1,8 @@
+AzPulsesPerDegree 67
+AzPulsesAccuracy 20
+LeftLimitPerDegree 0
+RightLimitDegrees 360
+ElPulsesPerDegree 120
+ElPulseAccuracy 20
+UpLimitPerDegree 90
+DownLimitDegrees 0
