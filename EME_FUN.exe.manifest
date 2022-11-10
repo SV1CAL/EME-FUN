@@ -4,7 +4,7 @@
   <description asmv2:iconFile="App.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="EME_FUN" version="1.0.7759.36569" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="EME_FUN" version="1.0.8349.29388" language="neutral" processorArchitecture="x86" />
     <commandLine file="EME_FUN.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -44,13 +44,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EME_FUN.exe" size="316928">
-      <assemblyIdentity name="EME_FUN" version="1.0.7759.36569" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="EME_FUN" version="1.0.8349.29388" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>x1aWrJi2/UfPhub7PSxf/6OZWr8=</dsig:DigestValue>
+        <dsig:DigestValue>Og982mEm74h6QpEf9ih0KdpL+KU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -78,6 +78,15 @@
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="23cm_stations.txt" size="32462">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Pue5x7LHalNWeDAKbVQqfFnl/fE=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="App.ico" size="16958">
     <hash>
       <dsig:Transforms>
@@ -85,6 +94,150 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>GtrHoFmuJc5rn25L/KipGDh6wKU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Copy of KEPS\AMATEUR\amateur.txt" size="7728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Y5BcN8REEiYrb85MmIhl6Xsa9xU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Copy of KEPS\GEO\geo.txt" size="67536">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9rxSBMrSDGPRcRMo2HzYCuSrPrY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Copy of KEPS\NOAA\noaa.txt" size="3528">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>z1U7ZsHJoeWpDAznK1TnbG4ohpA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Copy of KEPS\VISUAL\visual.txt" size="23688">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zZxl6RLW7P+KddwBaJLtrldsIYs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Copy of KEPS\WEATHER\weather.txt" size="5880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4cxu0mE2wZ/0FYGmL589kx4bGEk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DJTSatLib.dll" size="397824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZO1sAHAnk7UWobs7nOxwTPw3nfg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="GPS_log.txt" size="0">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2jmj7l5rSw0yVb/vlWAYkK/YBwk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="init.txt" size="1450">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9ghD/CFJC9H82GJCWTPxuKXYMzQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="init_explained.txt" size="4835">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cVO3nY+JNOg0xce52mtrHzmvptU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="KEPS\AMATEUR\amateur.txt" size="14280">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dfhEjgwtGMSbXCXeC63LA/PorI0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="KEPS\GEO\geo.txt" size="67536">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9rxSBMrSDGPRcRMo2HzYCuSrPrY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="KEPS\NOAA\noaa.txt" size="3696">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>33j1q4xR5xggkRwOy+Jdc9wIT90=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="KEPS\VISUAL\visual.txt" size="27552">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rj9HGbyc/GWyrENT6+cZLBCnH+c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="KEPS\WEATHER\weather.txt" size="8904">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1WQIOgEr6RkNOJ03CxhP2/WKKTM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="sky.txt" size="0">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2jmj7l5rSw0yVb/vlWAYkK/YBwk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="spid.txt" size="167">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+ez181bGqOOYP9q5ePyORHj1ijI=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
