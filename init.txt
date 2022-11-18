@@ -6,8 +6,8 @@ ElPulsesPerDegree 2
 ElPulseAccuracy 1
 UpLimitPerDegree 90
 DownLimitDegrees 0
-MyLat 38.0208333333333
-MyLong 22.9583333333333
+MyLat 38.0
+MyLong 22.9
 ControllerComPort COM6
 Preset1Az 197.1
 Preset1El 44.58

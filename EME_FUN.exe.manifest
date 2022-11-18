@@ -4,7 +4,7 @@
   <description asmv2:iconFile="App.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="EME_FUN" version="1.0.8357.28097" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="EME_FUN" version="1.0.8357.28743" language="neutral" processorArchitecture="x86" />
     <commandLine file="EME_FUN.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EME_FUN.exe" size="315392">
-      <assemblyIdentity name="EME_FUN" version="1.0.8357.28097" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EME_FUN.exe" size="315904">
+      <assemblyIdentity name="EME_FUN" version="1.0.8357.28743" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>endgC10J1acFM12c4sZIVx+eD9A=</dsig:DigestValue>
+        <dsig:DigestValue>CM2QNYCbD6kK6jiM2Sy+pXOClbQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
